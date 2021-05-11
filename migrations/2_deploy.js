@@ -1,5 +1,5 @@
 const Token = artifacts.require("Token");
-// const dBank = artifacts.require("dBank");
+const dBank = artifacts.require("dBank");
 
 module.exports = async function(deployer) {
 	//deploy Token
