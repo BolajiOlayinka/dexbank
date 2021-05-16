@@ -13,6 +13,7 @@ contract dBank {
 
   //pass as constructor argument deployed Token contract
   constructor(Token _token) public {
+    token = _token;
     //assign token deployed contract to variable
   }
 
@@ -26,7 +27,7 @@ contract dBank {
     //set msg.sender deposit status to true
     //emit Deposit event
   }
-
+ 
   function withdraw() public {
     //check if msg.sender deposit status is true
     //assign msg.sender ether deposit balance to variable for event
