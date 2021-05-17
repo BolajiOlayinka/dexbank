@@ -1,1 +1,6 @@
 /* Styles go here */
+@media(max-width:991px){
+    .container-fluid h1,h2{
+        font-size:12px;
+    }  
+}
