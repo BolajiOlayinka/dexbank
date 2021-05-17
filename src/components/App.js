@@ -173,7 +173,7 @@ class App extends Component {
                       <br/>
                       <br/>
                       <div>
-                        <button type='submit' className='btn-btn-primary' onClick={(e)=>this.withdraw(e)}>WITHDRAW</button>
+                        <button type='submit' className='btn btn-danger' onClick={(e)=>this.withdraw(e)}>WITHDRAW</button>
                       </div>
                     </div>
                   </Tab>
